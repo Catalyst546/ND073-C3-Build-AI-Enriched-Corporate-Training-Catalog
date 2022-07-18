@@ -79,7 +79,7 @@ namespace Udacity.springerlookupdemo
         {
             log.LogInformation("Entity Search function: C# HTTP trigger function processed a request.");
 
-            var response = new WebApiResponse
+            var response = new WebApiResponse 
             {
                 Values = new List<OutputRecord>()
             };
