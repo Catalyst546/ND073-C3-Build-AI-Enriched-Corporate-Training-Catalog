@@ -1,0 +1,265 @@
+Query 1: Azure Table Index
+search=intermediate
+
+Results 1:
+{
+  "@odata.context": "https://tccatalyst-searchservice.search.windows.net/indexes('azuretable-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 1.0296195,
+      "Timestamp": "2022-07-14T19:08:56.932Z",
+      "Key": "company-moodle3cbb3800-2554-4121-bb3a-f365deb0c3b6",
+      "description": "Learn our best practices for various tools such as Leaflet",
+      "duration": 2,
+      "instructor": "Robert Gillis",
+      "level": "intermediate",
+      "product": "leaflet",
+      "rating_average": 3.9,
+      "rating_count": 28,
+      "role": "developer",
+      "source": "Company Moodle",
+      "title": "Maps",
+      "url": "https://www.example.com/course6",
+      "keyphrases": [
+        "best practices",
+        "various tools",
+        "Leaflet"
+      ]
+    },
+    {
+      "@search.score": 1.0296195,
+      "Timestamp": "2022-07-14T19:08:55.915Z",
+      "Key": "company-moodle578a3319-aa7c-4d2f-b6a4-39e9638b0a85",
+      "description": "For administrators, this course will teach you how our CI/CD pipelines work from an operations perspective",
+      "duration": 5,
+      "instructor": "Claudia Blackman",
+      "level": "intermediate",
+      "product": "jenkins",
+      "rating_average": 4.9,
+      "rating_count": 56,
+      "role": "admin",
+      "source": "Company Moodle",
+      "title": "DevOps for Ops",
+      "url": "https://www.example.com/course5",
+      "keyphrases": [
+        "CI/CD pipelines",
+        "operations perspective",
+        "administrators",
+        "course"
+      ]
+    },
+    {
+      "@search.score": 1.0296195,
+      "Timestamp": "2022-07-14T19:09:03.586Z",
+      "Key": "company-moodle6b5d3f55-eb02-499d-9775-2e0e25659e07",
+      "description": "Learn our company's Principles for the Responsible Use of AI",
+      "duration": 1,
+      "instructor": "Eileen Diaz",
+      "level": "intermediate",
+      "product": "NA",
+      "rating_average": 4.3,
+      "rating_count": 24,
+      "role": "architect",
+      "source": "Company Moodle",
+      "title": "Ethics in AI",
+      "url": "https://www.example.com/course12",
+      "keyphrases": [
+        "Responsible Use",
+        "company",
+        "Principles",
+        "AI"
+      ]
+    },
+    {
+      "@search.score": 1.0296195,
+      "Timestamp": "2022-07-14T19:08:54.897Z",
+      "Key": "company-moodleb51ede14-025f-49ad-9e9e-44ad284eedda",
+      "description": "For developers, this course will teach you how to hook your dev work into our existing CI/CD pipelines.",
+      "duration": 3,
+      "instructor": "Claudia Blackman",
+      "level": "intermediate",
+      "product": "jenkins",
+      "rating_average": 3.8,
+      "rating_count": 101,
+      "role": "developer",
+      "source": "Company Moodle",
+      "title": "DevOps for Dev",
+      "url": "https://www.example.com/course4",
+      "keyphrases": [
+        "existing CI/CD pipelines",
+        "dev work",
+        "developers",
+        "course"
+      ]
+    },
+    {
+      "@search.score": 1.0296195,
+      "Timestamp": "2022-07-14T19:08:59.953Z",
+      "Key": "company-moodled3f0c955-ac6e-4ced-b91b-ffcef3e8cede",
+      "description": "For developers, learn our best practices for writing secure code for web, server, and desktop development",
+      "duration": 3,
+      "instructor": "Eileen Diaz",
+      "level": "intermediate",
+      "product": "NA",
+      "rating_average": 4.4,
+      "rating_count": 132,
+      "role": "developer",
+      "source": "Company Moodle",
+      "title": "Code security",
+      "url": "https://www.example.com/course9",
+      "keyphrases": [
+        "best practices",
+        "secure code",
+        "desktop development",
+        "developers",
+        "web",
+        "server"
+      ]
+    },
+    {
+      "@search.score": 1.0296195,
+      "Timestamp": "2022-07-14T18:53:02.49Z",
+      "Key": "ms-learn00baaa75-89fe-4f86-805f-f08336e6af48",
+      "description": "Explore the strategic components, use cases, and special factors of an enterprise AI strategy that creates real business value, with INSEAD and Microsoft.",
+      "duration": 70,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "m365",
+      "rating_average": 4.71,
+      "rating_count": 2779,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Define an AI strategy to create business value",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/ai-strategy-to-create-business-value/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "enterprise AI strategy",
+        "real business value",
+        "strategic components",
+        "special factors",
+        "cases",
+        "INSEAD",
+        "Microsoft"
+      ]
+    },
+    {
+      "@search.score": 1.0296195,
+      "Timestamp": "2022-07-14T19:04:35.383Z",
+      "Key": "ms-learn015c2947-8e4e-44f5-b342-0564f0ee2fbf",
+      "description": "Learn to manage LUIS apps through versioning, key management, handling data, and improving predictions.",
+      "duration": 24,
+      "instructor": "",
+      "level": "intermediate",
+      "product": "azure",
+      "rating_average": 4.77,
+      "rating_count": 106,
+      "role": "developer",
+      "source": "MS Learn",
+      "title": "Manage your Language Understanding Intelligent Service (LUIS) Apps",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/manage-language-understanding-intelligent-service-apps/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "LUIS apps",
+        "key management",
+        "versioning",
+        "data",
+        "predictions"
+      ]
+    }
+  ]
+}
+
+
+
+
+Query 2: Azure Table Index
+search=Robert
+
+Results 2:
+{
+  "@odata.context": "https://tccatalyst-searchservice.search.windows.net/indexes('azuretable-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 5.473134,
+      "Timestamp": "2022-07-14T19:08:56.932Z",
+      "Key": "company-moodle3cbb3800-2554-4121-bb3a-f365deb0c3b6",
+      "description": "Learn our best practices for various tools such as Leaflet",
+      "duration": 2,
+      "instructor": "Robert Gillis",
+      "level": "intermediate",
+      "product": "leaflet",
+      "rating_average": 3.9,
+      "rating_count": 28,
+      "role": "developer",
+      "source": "Company Moodle",
+      "title": "Maps",
+      "url": "https://www.example.com/course6",
+      "keyphrases": [
+        "best practices",
+        "various tools",
+        "Leaflet"
+      ]
+    }
+  ]
+}
+
+
+Query 3: Azure Blob Index
+search=augmented reality
+
+Results 3:
+{
+  "@odata.context": "https://tccatalyst-searchservice.search.windows.net/indexes('azureblob-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 15.634296,
+      "metadata_storage_last_modified": "2022-07-14T18:51:21Z",
+      "metadata_storage_path": "aHR0cHM6Ly90Y2NhdGFseXN0c3RvcmFnZWFjYy5ibG9iLmNvcmUud2luZG93cy5uZXQvcGFwZXJzL3MxMzY0MC0wMTgtMDM3My04LnBkZg2",
+      "metadata_author": "Boping Zhang",
+      "metadata_title": "Augmented reality virtual glasses try-on technology based on iOS platform",
+      "metadata_creation_date": "2018-11-23T11:51:48Z",
+      "keyphrases": [
+        "Augmented reality virtual glasses",
+        "iOS platform",
+        "technology"
+      ]
+    },
+    {
+      "@search.score": 4.2096004,
+      "metadata_storage_last_modified": "2022-07-14T18:51:22Z",
+      "metadata_storage_path": "aHR0cHM6Ly90Y2NhdGFseXN0c3RvcmFnZWFjYy5ibG9iLmNvcmUud2luZG93cy5uZXQvcGFwZXJzL0xpYW5nLUxpbjIwMjFfQXJ0aWNsZV9NYWNoaW5lTGVhcm5pbmdGb3JEaWdpdGFsVHJ5LW8ucGRm0",
+      "metadata_author": "Administrator",
+      "metadata_title": "01-CVM0189.pdf",
+      "metadata_creation_date": "2021-04-14T08:29:06Z",
+      "keyphrases": [
+        "CVM0189"
+      ]
+    },
+    {
+      "@search.score": 1.524675,
+      "metadata_storage_last_modified": "2022-07-14T18:50:58Z",
+      "metadata_storage_path": "aHR0cHM6Ly90Y2NhdGFseXN0c3RvcmFnZWFjYy5ibG9iLmNvcmUud2luZG93cy5uZXQvcGFwZXJzL0slQzMlQjZjaGxpbmctV2VobmVyMjAyMF9BcnRpY2xlX0Rpc2NyaW1pbmF0ZWRCeUFuQWxnb3JpdGhtQVN5cy5wZGY1",
+      "metadata_author": "Alina Köchling ",
+      "metadata_title": "Discriminated by an algorithm: a systematic review of discrimination and fairness by algorithmic decision-making in the context of HR recruitment and HR development",
+      "metadata_creation_date": "2020-11-19T15:45:16Z",
+      "keyphrases": [
+        "systematic review",
+        "algorithmic decision-making",
+        "HR recruitment",
+        "HR development",
+        "discrimination",
+        "fairness",
+        "context"
+      ]
+    },
+    {
+      "@search.score": 1.3259062,
+      "metadata_storage_last_modified": "2022-07-14T18:50:59Z",
+      "metadata_storage_path": "aHR0cHM6Ly90Y2NhdGFseXN0c3RvcmFnZWFjYy5ibG9iLmNvcmUud2luZG93cy5uZXQvcGFwZXJzL3M0MDQ2Ny0wMTUtMDAzMy05LnBkZg2",
+      "metadata_author": null,
+      "metadata_title": null,
+      "metadata_creation_date": "2015-05-16T18:35:45Z",
+      "keyphrases": []
+    }
+  ]
+}
+
+

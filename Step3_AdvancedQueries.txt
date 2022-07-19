@@ -1,0 +1,704 @@
+# Index: Azure Table Index
+
+Query 1:
+search=*&$filter=(level eq 'beginner') and (rating_average gt 4.6)
+
+Results 1:
+{
+  "@odata.context": "https://tccatalyst-searchservice.search.windows.net/indexes('azuretable-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 1,
+      "Timestamp": "2022-07-14T19:08:52.866Z",
+      "Key": "company-moodle30e3c6e5-9415-4d85-8229-c2133203c535",
+      "description": "Learn the policies related to the distribution and use of computers, phones, software, and other technology",
+      "duration": 1,
+      "instructor": "Mike Montoya",
+      "level": "beginner",
+      "product": "NA",
+      "rating_average": 4.9,
+      "rating_count": 550,
+      "role": "all",
+      "source": "Company Moodle",
+      "title": "Onboarding - Technology Policies ",
+      "url": "https://www.example.com/course2",
+      "keyphrases": [
+        "other technology",
+        "policies",
+        "distribution",
+        "use",
+        "computers",
+        "phones",
+        "software"
+      ],
+      "entities": "[{\"name\":\"Mike Montoya\",\"description\":\"Mike  is our HR trainer responsible for helping employees be successful in their careers at our company.  He has been with us for 3 years. Mike is an amateur chef and enjoys outdoor live music events.\",\"id\":\"\",\"type\":\"\",\"subtype\":\"\",\"matches\":[{\"text\":\"mike montoya\",\"offset\":0,\"length\":12,\"matchDistance\":0.0}]}]"
+    },
+    {
+      "@search.score": 1,
+      "Timestamp": "2022-07-14T19:08:51.836Z",
+      "Key": "company-moodle5b293283-81e6-4f89-a0ab-7053988d6f6a",
+      "description": "Learn how to track billable and non-billable hours by assigning time to projects and other relevant time codes",
+      "duration": 1,
+      "instructor": "Mike Montoya",
+      "level": "beginner",
+      "product": "NA",
+      "rating_average": 4.8,
+      "rating_count": 540,
+      "role": "all",
+      "source": "Company Moodle",
+      "title": "Onboarding - Time Tracking ",
+      "url": "https://www.example.com/course1",
+      "keyphrases": [
+        "other relevant time codes",
+        "non-billable hours",
+        "projects"
+      ],
+      "entities": "[{\"name\":\"Mike Montoya\",\"description\":\"Mike  is our HR trainer responsible for helping employees be successful in their careers at our company.  He has been with us for 3 years. Mike is an amateur chef and enjoys outdoor live music events.\",\"id\":\"\",\"type\":\"\",\"subtype\":\"\",\"matches\":[{\"text\":\"mike montoya\",\"offset\":0,\"length\":12,\"matchDistance\":0.0}]}]"
+    },
+    {
+      "@search.score": 1,
+      "Timestamp": "2022-07-14T19:09:02.573Z",
+      "Key": "company-moodlec014cf36-2a83-4ded-bfe5-d62f405ba970",
+      "description": "This course will teach you best practices for communicating with your team while working remotely",
+      "duration": 1,
+      "instructor": "Gerald Dominguez",
+      "level": "beginner",
+      "product": "NA",
+      "rating_average": 4.7,
+      "rating_count": 325,
+      "role": "all",
+      "source": "Company Moodle",
+      "title": "Remote work",
+      "url": "https://www.example.com/course11",
+      "keyphrases": [
+        "best practices",
+        "course",
+        "team"
+      ],
+      "entities": "[{\"name\":\"Gerald Dominguez\",\"description\":\"Gerald is a Junior IT Administrator and has been with the company for 1 year. Gerald played NCAA soccer and is a part-time soccer coach on weekends. \",\"id\":\"\",\"type\":\"\",\"subtype\":\"\",\"matches\":[{\"text\":\"gerald dominguez\",\"offset\":0,\"length\":16,\"matchDistance\":0.0}]}]"
+    },
+    {
+      "@search.score": 1,
+      "Timestamp": "2022-07-14T18:52:17.481Z",
+      "Key": "ms-learn000a0d57-a0fe-4386-829c-99074d1b3b9b",
+      "description": "Find out about automated testing that proves your code to be maintainable, understandable, and functioning without repetitive manual testing.",
+      "duration": 82,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure-devops",
+      "rating_average": 4.73,
+      "rating_count": 3301,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Run quality tests in your build pipeline by using Azure Pipelines",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/run-quality-tests-build-pipeline/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "repetitive manual testing",
+        "automated testing",
+        "code"
+      ],
+      "entities": "[]"
+    },
+    {
+      "@search.score": 1,
+      "Timestamp": "2022-07-14T19:05:14.876Z",
+      "Key": "ms-learn002f4436-7360-4daa-a21d-f9dcd3518589",
+      "description": "Enable business users with key AI use cases",
+      "duration": 34,
+      "instructor": "",
+      "level": "beginner",
+      "product": "power-platform",
+      "rating_average": 4.75,
+      "rating_count": 758,
+      "role": "functional-consultant",
+      "source": "MS Learn",
+      "title": "Enable business users with key AI use cases",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/enable-business-users-with-key-ai-uses-cases/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "key AI use cases",
+        "business users"
+      ],
+      "entities": "[]"
+    },
+    {
+      "@search.score": 1,
+      "Timestamp": "2022-07-14T19:07:13.107Z",
+      "Key": "ms-learn0197c8c6-dfc4-450b-9fa7-3f610977cc79",
+      "description": "Learn about AI Builder Text recognition and how to use it with other Power Platform products.",
+      "duration": 55,
+      "instructor": "",
+      "level": "beginner",
+      "product": "ai-builder",
+      "rating_average": 4.61,
+      "rating_count": 197,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder Text recognition",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-text-recognition/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "AI Builder Text recognition",
+        "other Power Platform products"
+      ],
+      "entities": "[]"
+    }
+  ]
+}
+
+
+
+Query 2:
+search=beginner&$filter=duration gt 20&$orderby=rating_average asc&facet=rating_count,interval:50&facet=rating_average,count:5
+
+Results 2:
+{
+  "@odata.context": "https://tccatalyst-searchservice.search.windows.net/indexes('azuretable-index')/$metadata#docs(*)",
+  "@search.facets": {
+    "rating_count": [
+      {
+        "count": 1,
+        "value": 150
+      },
+      {
+        "count": 1,
+        "value": 750
+      },
+      {
+        "count": 1,
+        "value": 3300
+      }
+    ],
+    "rating_average": [
+      {
+        "count": 1,
+        "value": 4.61
+      },
+      {
+        "count": 1,
+        "value": 4.73
+      },
+      {
+        "count": 1,
+        "value": 4.75
+      }
+    ]
+  },
+  "value": [
+    {
+      "@search.score": 0.79323065,
+      "Timestamp": "2022-07-14T19:07:13.107Z",
+      "Key": "ms-learn0197c8c6-dfc4-450b-9fa7-3f610977cc79",
+      "description": "Learn about AI Builder Text recognition and how to use it with other Power Platform products.",
+      "duration": 55,
+      "instructor": "",
+      "level": "beginner",
+      "product": "ai-builder",
+      "rating_average": 4.61,
+      "rating_count": 197,
+      "role": "business-user",
+      "source": "MS Learn",
+      "title": "Get started with AI Builder Text recognition",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/get-started-with-ai-builder-text-recognition/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "AI Builder Text recognition",
+        "other Power Platform products"
+      ],
+      "entities": "[]"
+    },
+    {
+      "@search.score": 0.79323065,
+      "Timestamp": "2022-07-14T18:52:17.481Z",
+      "Key": "ms-learn000a0d57-a0fe-4386-829c-99074d1b3b9b",
+      "description": "Find out about automated testing that proves your code to be maintainable, understandable, and functioning without repetitive manual testing.",
+      "duration": 82,
+      "instructor": "",
+      "level": "beginner",
+      "product": "azure-devops",
+      "rating_average": 4.73,
+      "rating_count": 3301,
+      "role": "solution-architect",
+      "source": "MS Learn",
+      "title": "Run quality tests in your build pipeline by using Azure Pipelines",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/run-quality-tests-build-pipeline/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "repetitive manual testing",
+        "automated testing",
+        "code"
+      ],
+      "entities": "[]"
+    },
+    {
+      "@search.score": 0.79323065,
+      "Timestamp": "2022-07-14T19:05:14.876Z",
+      "Key": "ms-learn002f4436-7360-4daa-a21d-f9dcd3518589",
+      "description": "Enable business users with key AI use cases",
+      "duration": 34,
+      "instructor": "",
+      "level": "beginner",
+      "product": "power-platform",
+      "rating_average": 4.75,
+      "rating_count": 758,
+      "role": "functional-consultant",
+      "source": "MS Learn",
+      "title": "Enable business users with key AI use cases",
+      "url": "https://docs.microsoft.com/en-us/learn/modules/enable-business-users-with-key-ai-uses-cases/?WT.mc_id=api_CatalogApi",
+      "keyphrases": [
+        "key AI use cases",
+        "business users"
+      ],
+      "entities": "[]"
+    }
+  ]
+}
+
+
+
+
+# Index: Azure Blob Index
+
+Query 3: 
+search=*&$select=metadata_author,metadata_title,metadata_creation_date,publicationName,publisher,doi,publicationDate&$orderby=metadata_creation_date asc
+
+Results 3: 
+{
+  "@odata.context": "https://tccatalyst-searchservice.search.windows.net/indexes('azureblob-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 1,
+      "metadata_author": null,
+      "metadata_title": null,
+      "metadata_creation_date": "2013-10-11T02:33:25Z",
+      "publicationName": "",
+      "publisher": "",
+      "doi": "",
+      "publicationDate": ""
+    },
+    {
+      "@search.score": 1,
+      "metadata_author": null,
+      "metadata_title": null,
+      "metadata_creation_date": "2015-05-16T18:35:45Z",
+      "publicationName": "",
+      "publisher": "",
+      "doi": "",
+      "publicationDate": ""
+    },
+    {
+      "@search.score": 1,
+      "metadata_author": null,
+      "metadata_title": null,
+      "metadata_creation_date": "2015-05-19T12:42:36Z",
+      "publicationName": "",
+      "publisher": "",
+      "doi": "",
+      "publicationDate": ""
+    },
+    {
+      "@search.score": 1,
+      "metadata_author": "Zengda Guan",
+      "metadata_title": "Local regression transfer learning with applications to users’ psychological characteristics prediction",
+      "metadata_creation_date": "2015-08-12T10:56:23Z",
+      "publicationName": "Brain Informatics",
+      "publisher": "Springer",
+      "doi": "10.1007/s40708-015-0017-z",
+      "publicationDate": "2015-09-01"
+    },
+    {
+      "@search.score": 1,
+      "metadata_author": "Partheeban Chandrasekaran",
+      "metadata_title": "Toward a testbed for evaluating computational trust models: experiments and analysis",
+      "metadata_creation_date": "2015-09-04T09:59:41Z",
+      "publicationName": "Journal of Trust Management",
+      "publisher": "Springer",
+      "doi": "10.1186/s40493-015-0019-z",
+      "publicationDate": "2015-09-07"
+    },
+    {
+      "@search.score": 1,
+      "metadata_author": "Rik Das",
+      "metadata_title": "Multi technique amalgamation for enhanced information identification with content based image data",
+      "metadata_creation_date": "2015-11-26T05:08:05Z",
+      "publicationName": "SpringerPlus",
+      "publisher": "Springer",
+      "doi": "10.1186/s40064-015-1515-4",
+      "publicationDate": "2015-12-01"
+    },
+    {
+      "@search.score": 1,
+      "metadata_author": "Muhammad Taimoor Khan",
+      "metadata_title": "Sentiment analysis and the complex natural language",
+      "metadata_creation_date": "2016-02-02T06:54:52Z",
+      "publicationName": "Complex Adaptive Systems Modeling",
+      "publisher": "Springer",
+      "doi": "10.1186/s40294-016-0016-9",
+      "publicationDate": "2016-02-03"
+    },
+    {
+      "@search.score": 1,
+      "metadata_author": "Tuba Parlar ",
+      "metadata_title": "QER: a new feature selection method for sentiment analysis",
+      "metadata_creation_date": "2018-04-18T08:33:56Z",
+      "publicationName": "Human-centric Computing and Information Sciences",
+      "publisher": "Springer",
+      "doi": "10.1186/s13673-018-0135-8",
+      "publicationDate": "2018-05-09"
+    },
+    {
+      "@search.score": 1,
+      "metadata_author": "P. Ram Mohan Rao ",
+      "metadata_title": "Privacy preservation techniques in big data analytics: a survey",
+      "metadata_creation_date": "2018-09-20T05:58:23Z",
+      "publicationName": "Journal of Big Data",
+      "publisher": "Springer",
+      "doi": "10.1186/s40537-018-0141-8",
+      "publicationDate": "2018-09-22"
+    },
+    {
+      "@search.score": 1,
+      "metadata_author": "Boping Zhang",
+      "metadata_title": "Augmented reality virtual glasses try-on technology based on iOS platform",
+      "metadata_creation_date": "2018-11-23T11:51:48Z",
+      "publicationName": "EURASIP Journal on Image and Video Processing",
+      "publisher": "Springer",
+      "doi": "10.1186/s13640-018-0373-8",
+      "publicationDate": "2018-11-27"
+    },
+    {
+      "@search.score": 1,
+      "metadata_author": "Tu Nguyen Thi Ngoc ",
+      "metadata_title": "Mining aspects of customer’s review on the social network",
+      "metadata_creation_date": "2019-02-26T14:27:28Z",
+      "publicationName": "Journal of Big Data",
+      "publisher": "Springer",
+      "doi": "10.1186/s40537-019-0184-5",
+      "publicationDate": "2019-02-28"
+    },
+    {
+      "@search.score": 1,
+      "metadata_author": "Chunyong Yin ",
+      "metadata_title": "Mobile marketing recommendation method based on user location feedback",
+      "metadata_creation_date": "2019-04-05T10:16:31Z",
+      "publicationName": "Human-centric Computing and Information Sciences",
+      "publisher": "Springer",
+      "doi": "10.1186/s13673-019-0177-6",
+      "publicationDate": "2019-05-01"
+    },
+    {
+      "@search.score": 1,
+      "metadata_author": "Taiwo Kolajo ",
+      "metadata_title": "Big data stream analysis: a systematic literature review",
+      "metadata_creation_date": "2019-06-04T14:40:29Z",
+      "publicationName": "Journal of Big Data",
+      "publisher": "Springer",
+      "doi": "10.1186/s40537-019-0210-7",
+      "publicationDate": "2019-06-06"
+    },
+    {
+      "@search.score": 1,
+      "metadata_author": "Iqbal H. Sarker ",
+      "metadata_title": "Context-aware rule learning from smartphone data: survey, challenges and future directions",
+      "metadata_creation_date": "2019-10-30T14:24:16Z",
+      "publicationName": "Journal of Big Data",
+      "publisher": "Springer",
+      "doi": "10.1186/s40537-019-0258-4",
+      "publicationDate": "2019-10-31"
+    },
+    {
+      "@search.score": 1,
+      "metadata_author": "Sandhya Narayanan ",
+      "metadata_title": "Improving prediction with enhanced Distributed Memory-based Resilient Dataset Filter",
+      "metadata_creation_date": "2020-02-24T16:27:45Z",
+      "publicationName": "Journal of Big Data",
+      "publisher": "Springer",
+      "doi": "10.1186/s40537-020-00292-y",
+      "publicationDate": "2020-02-28"
+    },
+    {
+      "@search.score": 1,
+      "metadata_author": "Ferdousi Sabera Rawnaque ",
+      "metadata_title": "Technological advancements and opportunities in Neuromarketing: a systematic review",
+      "metadata_creation_date": "2020-09-18T02:02:41Z",
+      "publicationName": "Brain Informatics",
+      "publisher": "Springer",
+      "doi": "10.1186/s40708-020-00109-x",
+      "publicationDate": "2020-09-21"
+    },
+    {
+      "@search.score": 1,
+      "metadata_author": " Shun Kodate ",
+      "metadata_title": "Detecting problematic transactions in a consumer-to-consumer e-commerce network",
+      "metadata_creation_date": "2020-11-12T15:20:34Z",
+      "publicationName": "Applied Network Science",
+      "publisher": "Springer",
+      "doi": "10.1007/s41109-020-00330-x",
+      "publicationDate": "2020-11-16"
+    },
+    {
+      "@search.score": 1,
+      "metadata_author": "Alina Köchling ",
+      "metadata_title": "Discriminated by an algorithm: a systematic review of discrimination and fairness by algorithmic decision-making in the context of HR recruitment and HR development",
+      "metadata_creation_date": "2020-11-19T15:45:16Z",
+      "publicationName": "Business Research",
+      "publisher": "Springer",
+      "doi": "10.1007/s40685-020-00134-w",
+      "publicationDate": "2020-11-01"
+    },
+    {
+      "@search.score": 1,
+      "metadata_author": "Haoliang Cui",
+      "metadata_title": "A classification method for social information of sellers on social network",
+      "metadata_creation_date": "2021-01-12T23:22:39Z",
+      "publicationName": "EURASIP Journal on Image and Video Processing",
+      "publisher": "Springer",
+      "doi": "10.1186/s13640-020-00545-z",
+      "publicationDate": "2021-01-14"
+    },
+    {
+      "@search.score": 1,
+      "metadata_author": "Administrator",
+      "metadata_title": "01-CVM0189.pdf",
+      "metadata_creation_date": "2021-04-14T08:29:06Z",
+      "publicationName": "",
+      "publisher": "",
+      "doi": "",
+      "publicationDate": ""
+    }
+  ]
+}
+
+
+Query 4: 
+search=&$select=metadata_author,metadata_title,metadata_creation_date,publicationName,publisher,doi,publicationDate&orderby=metadata_author asc&$filter=not (publisher eq '')
+
+Results 4:
+{
+  "@odata.context": "https://tccatalyst-searchservice.search.windows.net/indexes('azureblob-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 1,
+      "metadata_author": "Alina Köchling ",
+      "metadata_title": "Discriminated by an algorithm: a systematic review of discrimination and fairness by algorithmic decision-making in the context of HR recruitment and HR development",
+      "metadata_creation_date": "2020-11-19T15:45:16Z",
+      "publicationName": "Business Research",
+      "publisher": "Springer",
+      "doi": "10.1007/s40685-020-00134-w",
+      "publicationDate": "2020-11-01"
+    },
+    {
+      "@search.score": 1,
+      "metadata_author": "Boping Zhang",
+      "metadata_title": "Augmented reality virtual glasses try-on technology based on iOS platform",
+      "metadata_creation_date": "2018-11-23T11:51:48Z",
+      "publicationName": "EURASIP Journal on Image and Video Processing",
+      "publisher": "Springer",
+      "doi": "10.1186/s13640-018-0373-8",
+      "publicationDate": "2018-11-27"
+    },
+    {
+      "@search.score": 1,
+      "metadata_author": "Haoliang Cui",
+      "metadata_title": "A classification method for social information of sellers on social network",
+      "metadata_creation_date": "2021-01-12T23:22:39Z",
+      "publicationName": "EURASIP Journal on Image and Video Processing",
+      "publisher": "Springer",
+      "doi": "10.1186/s13640-020-00545-z",
+      "publicationDate": "2021-01-14"
+    },
+    {
+      "@search.score": 1,
+      "metadata_author": "Tuba Parlar ",
+      "metadata_title": "QER: a new feature selection method for sentiment analysis",
+      "metadata_creation_date": "2018-04-18T08:33:56Z",
+      "publicationName": "Human-centric Computing and Information Sciences",
+      "publisher": "Springer",
+      "doi": "10.1186/s13673-018-0135-8",
+      "publicationDate": "2018-05-09"
+    },
+    {
+      "@search.score": 1,
+      "metadata_author": "Chunyong Yin ",
+      "metadata_title": "Mobile marketing recommendation method based on user location feedback",
+      "metadata_creation_date": "2019-04-05T10:16:31Z",
+      "publicationName": "Human-centric Computing and Information Sciences",
+      "publisher": "Springer",
+      "doi": "10.1186/s13673-019-0177-6",
+      "publicationDate": "2019-05-01"
+    },
+    {
+      "@search.score": 1,
+      "metadata_author": "Rik Das",
+      "metadata_title": "Multi technique amalgamation for enhanced information identification with content based image data",
+      "metadata_creation_date": "2015-11-26T05:08:05Z",
+      "publicationName": "SpringerPlus",
+      "publisher": "Springer",
+      "doi": "10.1186/s40064-015-1515-4",
+      "publicationDate": "2015-12-01"
+    },
+    {
+      "@search.score": 1,
+      "metadata_author": "Muhammad Taimoor Khan",
+      "metadata_title": "Sentiment analysis and the complex natural language",
+      "metadata_creation_date": "2016-02-02T06:54:52Z",
+      "publicationName": "Complex Adaptive Systems Modeling",
+      "publisher": "Springer",
+      "doi": "10.1186/s40294-016-0016-9",
+      "publicationDate": "2016-02-03"
+    },
+    {
+      "@search.score": 1,
+      "metadata_author": "Partheeban Chandrasekaran",
+      "metadata_title": "Toward a testbed for evaluating computational trust models: experiments and analysis",
+      "metadata_creation_date": "2015-09-04T09:59:41Z",
+      "publicationName": "Journal of Trust Management",
+      "publisher": "Springer",
+      "doi": "10.1186/s40493-015-0019-z",
+      "publicationDate": "2015-09-07"
+    },
+    {
+      "@search.score": 1,
+      "metadata_author": "P. Ram Mohan Rao ",
+      "metadata_title": "Privacy preservation techniques in big data analytics: a survey",
+      "metadata_creation_date": "2018-09-20T05:58:23Z",
+      "publicationName": "Journal of Big Data",
+      "publisher": "Springer",
+      "doi": "10.1186/s40537-018-0141-8",
+      "publicationDate": "2018-09-22"
+    },
+    {
+      "@search.score": 1,
+      "metadata_author": "Tu Nguyen Thi Ngoc ",
+      "metadata_title": "Mining aspects of customer’s review on the social network",
+      "metadata_creation_date": "2019-02-26T14:27:28Z",
+      "publicationName": "Journal of Big Data",
+      "publisher": "Springer",
+      "doi": "10.1186/s40537-019-0184-5",
+      "publicationDate": "2019-02-28"
+    },
+    {
+      "@search.score": 1,
+      "metadata_author": "Taiwo Kolajo ",
+      "metadata_title": "Big data stream analysis: a systematic literature review",
+      "metadata_creation_date": "2019-06-04T14:40:29Z",
+      "publicationName": "Journal of Big Data",
+      "publisher": "Springer",
+      "doi": "10.1186/s40537-019-0210-7",
+      "publicationDate": "2019-06-06"
+    },
+    {
+      "@search.score": 1,
+      "metadata_author": "Iqbal H. Sarker ",
+      "metadata_title": "Context-aware rule learning from smartphone data: survey, challenges and future directions",
+      "metadata_creation_date": "2019-10-30T14:24:16Z",
+      "publicationName": "Journal of Big Data",
+      "publisher": "Springer",
+      "doi": "10.1186/s40537-019-0258-4",
+      "publicationDate": "2019-10-31"
+    },
+    {
+      "@search.score": 1,
+      "metadata_author": "Sandhya Narayanan ",
+      "metadata_title": "Improving prediction with enhanced Distributed Memory-based Resilient Dataset Filter",
+      "metadata_creation_date": "2020-02-24T16:27:45Z",
+      "publicationName": "Journal of Big Data",
+      "publisher": "Springer",
+      "doi": "10.1186/s40537-020-00292-y",
+      "publicationDate": "2020-02-28"
+    },
+    {
+      "@search.score": 1,
+      "metadata_author": "Zengda Guan",
+      "metadata_title": "Local regression transfer learning with applications to users’ psychological characteristics prediction",
+      "metadata_creation_date": "2015-08-12T10:56:23Z",
+      "publicationName": "Brain Informatics",
+      "publisher": "Springer",
+      "doi": "10.1007/s40708-015-0017-z",
+      "publicationDate": "2015-09-01"
+    },
+    {
+      "@search.score": 1,
+      "metadata_author": "Ferdousi Sabera Rawnaque ",
+      "metadata_title": "Technological advancements and opportunities in Neuromarketing: a systematic review",
+      "metadata_creation_date": "2020-09-18T02:02:41Z",
+      "publicationName": "Brain Informatics",
+      "publisher": "Springer",
+      "doi": "10.1186/s40708-020-00109-x",
+      "publicationDate": "2020-09-21"
+    },
+    {
+      "@search.score": 1,
+      "metadata_author": " Shun Kodate ",
+      "metadata_title": "Detecting problematic transactions in a consumer-to-consumer e-commerce network",
+      "metadata_creation_date": "2020-11-12T15:20:34Z",
+      "publicationName": "Applied Network Science",
+      "publisher": "Springer",
+      "doi": "10.1007/s41109-020-00330-x",
+      "publicationDate": "2020-11-16"
+    }
+  ]
+}
+
+
+Query 5: 
+search=*&$select=metadata_author,metadata_title,metadata_creation_date,publicationName,publisher,doi,publicationDate&$filter=publicationDate gt '2019-11-01'
+
+Results 5:
+{
+  "@odata.context": "https://tccatalyst-searchservice.search.windows.net/indexes('azureblob-index')/$metadata#docs(*)",
+  "value": [
+    {
+      "@search.score": 1,
+      "metadata_author": "Alina Köchling ",
+      "metadata_title": "Discriminated by an algorithm: a systematic review of discrimination and fairness by algorithmic decision-making in the context of HR recruitment and HR development",
+      "metadata_creation_date": "2020-11-19T15:45:16Z",
+      "publicationName": "Business Research",
+      "publisher": "Springer",
+      "doi": "10.1007/s40685-020-00134-w",
+      "publicationDate": "2020-11-01"
+    },
+    {
+      "@search.score": 1,
+      "metadata_author": "Haoliang Cui",
+      "metadata_title": "A classification method for social information of sellers on social network",
+      "metadata_creation_date": "2021-01-12T23:22:39Z",
+      "publicationName": "EURASIP Journal on Image and Video Processing",
+      "publisher": "Springer",
+      "doi": "10.1186/s13640-020-00545-z",
+      "publicationDate": "2021-01-14"
+    },
+    {
+      "@search.score": 1,
+      "metadata_author": "Sandhya Narayanan ",
+      "metadata_title": "Improving prediction with enhanced Distributed Memory-based Resilient Dataset Filter",
+      "metadata_creation_date": "2020-02-24T16:27:45Z",
+      "publicationName": "Journal of Big Data",
+      "publisher": "Springer",
+      "doi": "10.1186/s40537-020-00292-y",
+      "publicationDate": "2020-02-28"
+    },
+    {
+      "@search.score": 1,
+      "metadata_author": "Ferdousi Sabera Rawnaque ",
+      "metadata_title": "Technological advancements and opportunities in Neuromarketing: a systematic review",
+      "metadata_creation_date": "2020-09-18T02:02:41Z",
+      "publicationName": "Brain Informatics",
+      "publisher": "Springer",
+      "doi": "10.1186/s40708-020-00109-x",
+      "publicationDate": "2020-09-21"
+    },
+    {
+      "@search.score": 1,
+      "metadata_author": " Shun Kodate ",
+      "metadata_title": "Detecting problematic transactions in a consumer-to-consumer e-commerce network",
+      "metadata_creation_date": "2020-11-12T15:20:34Z",
+      "publicationName": "Applied Network Science",
+      "publisher": "Springer",
+      "doi": "10.1007/s41109-020-00330-x",
+      "publicationDate": "2020-11-16"
+    }
+  ]
+}
+
+
+
+
+
+

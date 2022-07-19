@@ -1,0 +1,31 @@
+Azure Table Index:
+&$select=Timestamp,Key,description,duration,instructor,level,product,rating_average,rating_count,role,source,title,url,keyphrases
+
+
+Azure Blob Index:
+&$select=metadata_author,metadata_title,metadata_creation_date,publicationName,publisher,doi,publicationDate
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
